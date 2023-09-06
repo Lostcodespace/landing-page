@@ -70,6 +70,7 @@ p.secondary-text{
 .main-body{
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 120px;
 }
 h1.info-header{
     text-align: center;
@@ -87,7 +88,7 @@ p.subtext{
 }
 ul.subtext-container{
     flex-grow: 1;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 li.information{
     display: flex;
@@ -97,7 +98,14 @@ li.information{
     flex-wrap: wrap;
 }
 .image-container{
-    border: 2px solid green;
     height: 120px;
     width: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 25px;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding-left: 200px;
+    padding-right: 200px;
 }
