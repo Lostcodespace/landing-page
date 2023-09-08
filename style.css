@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
 }
 .hero{
     background-color: #1f2937;
@@ -108,4 +109,54 @@ li.information{
     background-color: #e5e7eb;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.quote{
+    margin: 0;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quotedperson{
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder !important;
+}
+.action-container{
+    padding: 75px 200px 75px 200px;
+}
+.call-action{
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+.advertise-top, .advertise-bottom{
+    margin: 0;
+}
+.advertise-top{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.action-button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    padding: 8px 28px;
+    width: fit-content;
+    border-radius: 15px;
+}
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
